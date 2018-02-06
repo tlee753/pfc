@@ -1,3 +1,11 @@
 _site
 .sass-cache
 .jekyll-metadata
+
+
+# Intellij Idea
+.idea
+*.iml
+
+# Bash
+*.sh
