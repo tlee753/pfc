@@ -9,21 +9,20 @@ dl, dd, ol, ul, figure {
 }
 
 
-
 /**
  * Basic styling
  */
 body {
     font-family: $theme-font;
-    background-color: $theme-background;
+    background-color: white; /* ^^ */
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
     -moz-font-feature-settings: "kern" 1;
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
+    min-height: 100vh;
 }
-
 
 
 /**
@@ -34,8 +33,12 @@ p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
     margin-bottom: 10px / 2;
+    color: $theme-secondary;
 }
 
+h1 {
+    font-size: 64px;
+}
 
 
 /**
@@ -44,9 +47,9 @@ ul, ol, dl, figure,
 img {
     max-width: 100%;
     vertical-align: middle;
-    background: $theme-primary;
+    // background: $theme-primary;
+    max-height: 75px;
 }
-
 
 
 /**
@@ -59,7 +62,6 @@ figure > img {
 figcaption {
     font-size: 12px;
 }
-
 
 
 /**
@@ -95,7 +97,6 @@ a {
 }
 
 
-
 /**
  * Blockquotes
  */
@@ -111,7 +112,6 @@ blockquote {
         margin-bottom: 0;
     }
 }
-
 
 
 /**
@@ -141,11 +141,6 @@ pre {
 }
 
 
-
-
-
-
-
 /**
  * Clearfix
  */
@@ -157,7 +152,6 @@ pre {
         clear: both;
     }
 }
-
 
 
 /**
@@ -174,3 +168,22 @@ svg {
     }
 }
 
+table {
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+
+    th {
+        color: $theme-background;
+        background-color: $theme-primary;
+        padding: 10px;
+        font-size: 24px;
+    }
+
+    td {
+        color: $theme-secondary;
+        background-color: $theme-background;
+        padding: 10px;
+        font-size: 20px;
+    }
+}
