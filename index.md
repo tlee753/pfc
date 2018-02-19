@@ -4,9 +4,9 @@ layout: default
 
 | Week | Slides | PDF |
 |------|--------|-----|
-|   1  | [Slides 1](/week1)   | [PDF 1](/week1) |
-|   2  | [Slides 2](/week2)   | [PDF 2](/week2) |
-|   3  | [Slides 3](/week3)   | [PDF 3](/week3) |
+|   1  | [Slides 1](/pfc/week1)   | [PDF 1](/week1) |
+|   2  | [Slides 2](/pfc/week2)   | [PDF 2](/week2) |
+|   3  | [Slides 3](/pfc/week3)   | [PDF 3](/week3) |
 |   4  | [Slides 4](/week4)   | [PDF 4](/week4) |
 |   5  | [Slides 5](/week5)   | [PDF 5](/week5) |
 |   6  | [Slides 6](/week6)   | [PDF 6](/week6) |
