@@ -2,7 +2,7 @@
   font-family: "bodoni";
   font-style: normal;
   font-weight: 400;
-  src: url("/assets/fonts/bodoni-smallcaps.ttf") format("truetype"); }
+  src: url("/pfc/assets/fonts/bodoni-smallcaps.ttf") format("truetype"); }
 /**
  * Syntax highlighting styles
  */
@@ -158,8 +158,7 @@ dl, dd, ol, ul, figure {
  */
 body {
   font-family: "bodoni", sans-serif;
-  background-color: white;
-  /* ^^ */
+  background-color: #000000;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;
