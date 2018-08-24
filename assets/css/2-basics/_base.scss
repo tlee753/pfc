@@ -187,3 +187,11 @@ table {
         font-size: 20px;
     }
 }
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: $theme-primary;
+}
