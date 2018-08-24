@@ -92,7 +92,6 @@ a {
 
     &:hover {
         color: $theme-secondary;
-        text-decoration: underline;
     }
 }
 
@@ -172,6 +171,7 @@ table {
     text-align: center;
     padding: 10px;
     margin: 0 auto;
+    max-width: 100%;
 
     th {
         color: $theme-background;
@@ -188,10 +188,3 @@ table {
     }
 }
 
-a {
-    text-decoration: none;
-}
-
-a:hover {
-    color: $theme-primary;
-}
