@@ -335,6 +335,7 @@ $controlsArrowAngleActive: 36deg;
 	}
 
 	.controls-arrow {
+		color: $theme-primary;
 		position: relative;
 		width: $controlArrowSize;
 		height: $controlArrowSize;
