@@ -1426,7 +1426,7 @@ body {
   font-family: "bodoni";
   font-style: normal;
   font-weight: 400;
-  src: url("/assets/fonts/bodoni-smallcaps.ttf") format("truetype"); }
+  src: url("/pfc/assets/fonts/bodoni-smallcaps.ttf") format("truetype"); }
 /**
  * Syntax highlighting styles
  */
