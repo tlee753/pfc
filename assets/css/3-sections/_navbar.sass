@@ -1,8 +1,15 @@
 navbar
-  position: relative
-  display: fixed
-  
+  position: fixed
+  top: 0%
+  left: 50%
+  transform: translate(-50%, 0%)
+  overflow: hidden
+  max-height: 60px
+ 
   .navbar-title
     text-align: center
     color: $theme-tertiary
     font-size: 64px
+    
+    &:hover
+      color: $theme-primary

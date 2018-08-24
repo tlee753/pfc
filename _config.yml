@@ -1,15 +1,15 @@
 title: Personal Finance Club
-email: tlee753@gatech.edu
 description: >
   Georgia Tech Personal Finance Club Homepage
 
-baseurl: "/pfc" # the subpath of your site, e.g. /blog
-url: "http://tlee753.com"
+baseurl: "" # the subpath of your site, e.g. /blog
+# url: "http://tlee753.com"
+url: ""
 
 # permalink: /:title
 include: ['_pages']
 
-twitter_username: tlee753
+email: tlee753@gatech.edu
 github_username:  tlee753
 
 markdown: kramdown

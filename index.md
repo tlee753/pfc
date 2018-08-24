@@ -2,19 +2,24 @@
 layout: default
 ---
 
+<br>
+<br>
+<br>
+<br>
+
 | Week | Topic | Slides | PDF |
 |------|-------|--------|-----|
-|   1  | Introduction         | [Slides 1](/pfc/week1) | [PDF 1](/week1) |
-|   2  | Savings Account      | [Slides 2](/pfc/week2) | [PDF 2](/week2) |
-|   3  | Budgeting            | [Slides 3](/pfc/week3) | [PDF 3](/week3) |
-|   4  | Picking Stocks       | [Slides 4](/week4)     | [PDF 4](/week4) |
-|   5  | Foregin Markets      | [Slides 5](/week5)     | [PDF 5](/week5) |
-|   6  | Account Types        | [Slides 6](/week6)     | [PDF 6](/week6) |
-|   7  | Order Types          | [Slides 7](/week7)     | [PDF 7](/week7) |
-|   8  | Day Trading          | [Slides 8](/week8)     | [PDF 8](/week8) |
-|   9  | Taxes                | [Slides 9](/week9)     | [PDF 9](/week9) |
-|  10  | Charts               | [Slides 10](/week10)   | [PDF 10](/week10) |
-|  11  | Collaborative Picks  | [Slides 11](/week11)   | [PDF 11](/week11) |
-|  12  | Collaborative Picks  | [Slides 12](/week12)   | [PDF 12](/week12) |
-|  13  | Cryptocurriencies    | [Slides 13](/week13)   | [PDF 13](/week13) |
-|  14  | Cryptocurriencies    | [Slides 14](/week14)   | [PDF 14](/week14) |
+|   1  | Introduction         | [Slides 1]({{ "/week1" | prepend: site.baseurl }}) | [PDF 1]({{ "/assets/docs/week1.pdf" | prepend: site.baseurl }}) |
+|   2  | Savings Account      | [Slides 2]({{ "/week2" | prepend: site.baseurl }}) | [PDF 2]({{ "/assets/docs/week2.pdf" | prepend: site.baseurl }}) |
+|   3  | Budgeting            | [Slides 3]({{ "/week3" | prepend: site.baseurl }}) | [PDF 3]({{ "/assets/docs/week3.pdf" | prepend: site.baseurl }}) |
+|   4  | Picking Stocks       | [Slides 4]({{ "/week4" | prepend: site.baseurl }}) | [PDF 4]({{ "/assets/docs/week4.pdf" | prepend: site.baseurl }}) |
+|   5  | Foregin Markets      | [Slides 5]({{ "/week5" | prepend: site.baseurl }}) | [PDF 5]({{ "/assets/docs/week5.pdf" | prepend: site.baseurl }}) |
+|   6  | Account Types        | [Slides 6]({{ "/week6" | prepend: site.baseurl }}) | [PDF 6]({{ "/assets/docs/week6.pdf" | prepend: site.baseurl }}) |
+|   7  | Order Types          | [Slides 7]({{ "/week7" | prepend: site.baseurl }}) | [PDF 7]({{ "/assets/docs/week7.pdf" | prepend: site.baseurl }}) |
+|   8  | Day Trading          | [Slides 8]({{ "/week8" | prepend: site.baseurl }}) | [PDF 8]({{ "/assets/docs/week8.pdf" | prepend: site.baseurl }}) |
+|   9  | Taxes                | [Slides 9]({{ "/week9" | prepend: site.baseurl }}) | [PDF 9]({{ "/assets/docs/week9.pdf" | prepend: site.baseurl }}) |
+|  10  | Charts               | [Slides 10]({{ "/week10" | prepend: site.baseurl }}) | [PDF 10]({{ "/assets/docs/week10.pdf" | prepend: site.baseurl }}) |
+|  11  | Collaborative Picks  | [Slides 11]({{ "/week11" | prepend: site.baseurl }}) | [PDF 11]({{ "/assets/docs/week11.pdf" | prepend: site.baseurl }}) |
+|  12  | Collaborative Picks  | [Slides 12]({{ "/week12" | prepend: site.baseurl }}) | [PDF 12]({{ "/assets/docs/week12.pdf" | prepend: site.baseurl }}) |
+|  13  | Cryptocurriencies    | [Slides 13]({{ "/week13" | prepend: site.baseurl }}) | [PDF 13]({{ "/assets/docs/week13.pdf" | prepend: site.baseurl }}) |
+|  14  | Cryptocurriencies    | [Slides 14]({{ "/week14" | prepend: site.baseurl }}) | [PDF 14]({{ "/assets/docs/week14.pdf" | prepend: site.baseurl }}) |
