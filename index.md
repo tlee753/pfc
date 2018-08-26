@@ -2,10 +2,6 @@
 layout: default
 ---
 
-<br>
-<br>
-<br>
-<br>
 
 | Week | Topic | Slides | PDF |
 |------|-------|--------|-----|

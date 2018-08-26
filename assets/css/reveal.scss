@@ -37,6 +37,16 @@ html, body, .reveal div, .reveal span, .reveal applet, .reveal object, .reveal i
 	display: block;
 }
 
+.reveal h1 {
+	font-size: 8vh;
+}
+
+.reveal li {
+	font-size: 2vh;
+	font-family: 'Times New Roman', Times, serif;
+	word-wrap: break-word;
+}
+
 
 /*********************************************
  * GLOBAL STYLES
@@ -338,6 +348,7 @@ $controlsArrowAngleActive: 36deg;
 		position: relative;
 		width: $controlArrowSize;
 		height: $controlArrowSize;
+		color: $theme-primary;
 
 		@include controlsArrowTransform( $controlsArrowAngle );
 
@@ -363,6 +374,7 @@ $controlsArrowAngleActive: 36deg;
 
 		.controls-arrow {
 			transform: rotate( 180deg );
+			
 		}
 
 		&.highlight {
@@ -547,7 +559,7 @@ $controlsArrowAngleActive: 36deg;
 		height: 100%;
 		width: 0px;
 
-		background-color: currentColor;
+		background-color: $theme-primary;
 		transition: width 800ms cubic-bezier(0.260, 0.860, 0.440, 0.985);
 	}
 
@@ -558,14 +570,14 @@ $controlsArrowAngleActive: 36deg;
 .reveal .slide-number {
 	position: absolute;
 	display: block;
-	right: 8px;
-	bottom: 8px;
+	right: 5px;
+	bottom: 5px;
 	z-index: 31;
 	font-family: Helvetica, sans-serif;
-	font-size: 12px;
+	font-size: 16px;
 	line-height: 1;
-	color: #fff;
-	background-color: rgba( 0, 0, 0, 0.4 );
+	color: $theme-primary;
+	// background-color: rgba( 0, 0, 0, 0.0 );
 	padding: 5px;
 }
 

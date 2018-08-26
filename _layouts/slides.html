@@ -1,35 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
-{% include reveal.html %}
+    {% include head.html %}
 
-<body>
+    <body>
 
-{% include navbar.html %}
+        {% include navbar.html %}
 
-<div class="reveal">
+        <div class="reveal">
 
-    <div class="slides">
+            <div class="slides">
 
-        {{ content }}
+                {{ content }}
 
-    </div>
+            </div>
 
-</div>
+        </div>
 
-{% include footer.html %}
+        {% include footer.html %}
 
-<script>
-    Reveal.initialize({
-        controls: true,
-        controlsTutorial: false,
-        slideNumber: true,
-        progress: true,
-        mouseWheel: true,
-        overview: true,
-        transition: "linear" // default/cube/page/concave/zoom/linear/fade/none
-    });
-</script>
+        <script>
+            Reveal.initialize({
+                controls: true,
+                controlsTutorial: false,
+                slideNumber: true,
+                progress: true,
+                mouseWheel: true,
+                overview: true,
+                transition: "linear" // default/cube/page/concave/zoom/linear/fade/none
+            });
+        </script>
 
-</body>
+    </body>
 </html>

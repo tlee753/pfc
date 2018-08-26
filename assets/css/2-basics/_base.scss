@@ -40,6 +40,10 @@ h1 {
     font-size: 64px;
 }
 
+p {
+    font-family: sans-serif;
+}
+
 
 /**
  * Images
@@ -171,21 +175,22 @@ table {
     text-align: center;
     padding: 10px;
     margin: 0 auto;
-    max-width: 100%;
+    word-break: break-all;
+    opacity: 0.6;
     width: 100%;
 
     th {
         color: $theme-background;
         background-color: $theme-primary;
         padding: 10px;
-        font-size: 24px;
+        font-size: 3vh;
     }
 
     td {
         color: $theme-secondary;
         background-color: $theme-background;
         padding: 10px;
-        font-size: 20px;
+        font-size: 2vh;
     }
 }
 
