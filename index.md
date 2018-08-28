@@ -21,5 +21,4 @@ layout: default
 |  14  | Cryptocurriencies    | [Slides 14]({{ "/week14" | prepend: site.baseurl }}) | [PDF 14]({{ "/assets/docs/week14.pdf" | prepend: site.baseurl }}) |
 
 <br><br>
-
-![About](/about/)
+[About](/about/)
