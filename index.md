@@ -19,3 +19,7 @@ layout: default
 |  12  | Collaborative Picks  | [Slides 12]({{ "/week12" | prepend: site.baseurl }}) | [PDF 12]({{ "/assets/docs/week12.pdf" | prepend: site.baseurl }}) |
 |  13  | Cryptocurriencies    | [Slides 13]({{ "/week13" | prepend: site.baseurl }}) | [PDF 13]({{ "/assets/docs/week13.pdf" | prepend: site.baseurl }}) |
 |  14  | Cryptocurriencies    | [Slides 14]({{ "/week14" | prepend: site.baseurl }}) | [PDF 14]({{ "/assets/docs/week14.pdf" | prepend: site.baseurl }}) |
+
+<br><br>
+
+![About](/about/)
