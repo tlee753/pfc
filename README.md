@@ -2,7 +2,7 @@
 ### Personal Finance Club
 
 ### Site Address
-[PFC Site](tlee753.com/pfc)
+[PFC Site](http://tlee753.com/pfc)
 
 ### Information
 Educational tool for teaching money management; a concise compilation of online slides with downloadable pdf's explaining various concepts including but not limited to:
